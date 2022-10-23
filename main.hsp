@@ -1,0 +1,8 @@
+#include "mod_WebView2_08355.hsp"
+
+	screen 0, 600, 400
+	WebView2New web
+	WebView2Size web, 0, 0, ginfo_winx, ginfo_winy
+	WebView2Navigate web, "https://www.bing.com"
+	stop
+	
